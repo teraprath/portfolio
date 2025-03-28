@@ -1,3 +1,4 @@
+import Meta from "./components/Meta"
 import Header from "./components/Header"
 import Home from "./components/Home"
 import About from "./components/About"
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <>
+      <Meta />
       <Header />
       <main>
         <Home />
