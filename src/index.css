@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+
+    *::-webkit-scrollbar {
+        display: none;
+    }
+
+    * {
+        @apply select-none;
+
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    html {
+        @apply scroll-smooth;
+    }
+
+    section {
+        @apply w-screen h-dvh p-8 lg:p-40 xl:p-60 2xl:p-80 gap-y-8 lg:gap-y-0 flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-center;
+    }
+
+    img {
+        @apply pointer-events-none;
+    }
+}
+
+@layer components {
+
+    .header {
+        @apply fixed bottom-0 left-1/2 right-1/2 flex items-center justify-center;
+    }
+
+    .header > nav > ul {
+        @apply flex flex-row items-center gap-x-8 bg-gray-100 px-6 py-2 mb-8 rounded-4xl;
+    }
+
+    .header > nav > ul > li {
+        @apply text-xs text-gray-400;
+    }
+
+    .header > nav > ul > li > a {
+        @apply flex flex-col items-center gap-y-1;
+    }
+
+    .header > nav > ul > .selected > a {
+        @apply text-blue-600;
+    }
+}
