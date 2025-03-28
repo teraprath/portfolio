@@ -21,32 +21,6 @@ function Header() {
                             </a>
                         </li>
                     ))}
-                    {/*
-                    <li>
-                        <a href="#home" className="selected">
-                            <HomeIcon className="size-5"/>
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#about">
-                            <UserIcon className="size-5"/>
-                            About
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#work">
-                            <CodeBracketIcon className="size-5"/>
-                            Work
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contact">
-                            <EnvelopeIcon className="size-5"/>
-                            Contact
-                        </a>
-                    </li>
-                    */}
                 </ul>
             </nav>
         </header>
