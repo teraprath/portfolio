@@ -13,7 +13,7 @@ function Header() {
                 <ul>
                     {sections.map((section) => (
                         <li key={section} className={activeSection === section ? "selected" : ""}>
-                            <Link to={section} smooth={true} duration={100}>
+                            <Link to={section} smooth={true} duration={200}>
                                 {section === "home" && <HomeIcon className="size-5" />}
                                 {section === "about" && <UserIcon className="size-5" />}
                                 {section === "work" && <CodeBracketIcon className="size-5" />}

@@ -1,7 +1,6 @@
 function Footer() {
     return (
-        <footer>
-
+        <footer className="h-80">
         </footer>
     )
 }

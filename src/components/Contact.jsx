@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <section id="contact">
+        <section id="contact" className="bg-gray-50">
 
         </section>
     )

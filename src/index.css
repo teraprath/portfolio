@@ -13,10 +13,6 @@
         scrollbar-width: none;
     }
 
-    html {
-        @apply scroll-smooth;
-    }
-
     section {
         @apply w-screen h-dvh p-8 lg:p-40 xl:p-60 2xl:p-80 gap-y-8 lg:gap-y-0 flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-center;
     }
@@ -33,7 +29,7 @@
     }
 
     .header > nav > ul {
-        @apply flex flex-row items-center gap-x-8 bg-gray-100 px-6 py-2 mb-8 rounded-4xl;
+        @apply flex flex-row items-center gap-x-8 bg-gray-100 drop-shadow-md px-6 py-2 mb-4 rounded-4xl;
     }
 
     .header > nav > ul > li {
@@ -45,11 +41,15 @@
     }
 
     .header > nav > ul > .selected {
-        @apply text-blue-600;
+        @apply text-blue-500;
     }
 
     .header > nav > ul > :not(.selected):hover {
-        @apply text-gray-600;
+        @apply text-gray-500;
+    }
+
+    .button {
+        @apply bg-gray-400 px-4 py-2 rounded-lg flex flex-row items-center justify-center gap-x-2 text-gray-800 text-lg font-semibold;
     }
 
 }
