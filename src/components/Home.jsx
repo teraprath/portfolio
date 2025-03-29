@@ -1,6 +1,6 @@
 import { motion } from "motion/react"
 import AvatarImage from "../assets/avatar.png"
-import LinkedInImage from "../assets/linkedin.png"
+import LinkedInImage from "../assets/linkedin.svg"
 import GitHubImage from "../assets/github.svg"
 
 function Home() {

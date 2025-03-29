@@ -14,7 +14,7 @@
     }
 
     section {
-        @apply w-screen h-dvh p-8 lg:p-40 xl:p-60 2xl:p-80 gap-y-8 lg:gap-y-0 flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-center;
+        @apply w-screen h-dvh px-8 lg:px-40 xl:px-60 2xl:px-80 gap-y-8 lg:gap-y-0 flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-center;
     }
 
     img {
